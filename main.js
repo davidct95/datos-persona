@@ -1,5 +1,6 @@
 fetch("https://fb25-190-151-133-2.ngrok-free.app/lista", {
   method: "GET",
+  mode: 'no-cors',
   headers: {
     "Content-Type": "application/json", // Ajusta los encabezados según lo necesites
     // Puedes agregar otros encabezados aquí si es necesario, como tokens de autenticación
