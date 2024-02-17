@@ -1,4 +1,4 @@
-fetch("http://localhost:8080/lista", {
+fetch("https://fb25-190-151-133-2.ngrok-free.app/lista", {
   method: "GET",
   headers: {
     "Content-Type": "application/json", // Ajusta los encabezados según lo necesites
